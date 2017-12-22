@@ -1,0 +1,14 @@
+[package]
+name = "example-rs-module"
+version = "0.1.0"
+authors = ["Nguyễn Tuấn Anh <ubolonton@gmail.com"]
+description = "An example Emacs dynamic module that is live-reloadable, written in Rust"
+license = "BSD-3-Clause"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.34"
+emacs_module_bindings = "0.7.0"
