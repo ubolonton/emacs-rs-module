@@ -1,0 +1,10 @@
+** Development flow
+In Emacs:
+#+begin_src lisp
+(server-start)
+#+end_src
+Use =cargo-watch= to recompile and reload the module everytime the code changes:
+#+begin_src bash
+cargo install cargo-watch
+cargo watch -x build -s ./bin/load.sh
+#+end_src
