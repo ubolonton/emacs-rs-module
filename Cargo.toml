@@ -1,12 +1,12 @@
 [package]
 name = "emacs-rs-module"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Nguyễn Tuấn Anh <ubolonton@gmail.com"]
 description = "An Emacs dynamic module that can (re)load other dynamic modules"
 license = "BSD-3-Clause"
 homepage = "https://github.com/ubolonton/emacs-rs-module"
 repository = "https://github.com/ubolonton/emacs-rs-module"
-readme = "README.org"
+readme = "README.md"
 
 [lib]
 crate-type = ["cdylib"]
