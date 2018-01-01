@@ -1,3 +1,5 @@
+**Deprecated**: This is now part of  https://github.com/ubolonton/emacs-module-rs.
+
 # Emacs Rust Module
 
 This is an Emacs dynamic module written in Rust that aims to streamline development of other Emacs dynamic modules.
